@@ -1,0 +1,118 @@
+[
+    {
+        "id": "72c2e38805a4406c",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f30d5daa56315586",
+        "type": "inject",
+        "z": "72c2e38805a4406c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "g9",
+                "v": "Saludos!",
+                "vt": "str"
+            }
+        ],
+        "repeat": "15",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 160,
+        "wires": [
+            [
+                "3640c58ea64efde3"
+            ]
+        ]
+    },
+    {
+        "id": "85488bb1b73342f6",
+        "type": "debug",
+        "z": "72c2e38805a4406c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "g9",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 300,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "3640c58ea64efde3",
+        "type": "function",
+        "z": "72c2e38805a4406c",
+        "name": "",
+        "func": "// Lo que está después de “//” son comentarios\n// Crea un objeto Date a partir del payload enviado por timestamp\nvar date = new Date(msg.payload);\n// Cambia el payload para que sea una fecha con formato\nmsg.payload = date.toString();\n// Regresa el mensaje para que se envíe al sigueinte nodo\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 140,
+        "y": 280,
+        "wires": [
+            [
+                "85488bb1b73342f6",
+                "a78ea458baf7abbe"
+            ]
+        ]
+    },
+    {
+        "id": "a78ea458baf7abbe",
+        "type": "ui_text",
+        "z": "72c2e38805a4406c",
+        "group": "451db3eec9352b79",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "La hora es",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 330,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "451db3eec9352b79",
+        "type": "ui_group",
+        "name": "Fecha actual - Grupo",
+        "tab": "ad790f6be055913c",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ad790f6be055913c",
+        "type": "ui_tab",
+        "name": "Flow 2 - Fecha",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]

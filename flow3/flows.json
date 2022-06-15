@@ -1,0 +1,268 @@
+[
+    {
+        "id": "1d314bb41b6ee52c",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "420725b86eb171c9",
+        "type": "inject",
+        "z": "1d314bb41b6ee52c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Texto prueba para grupo 9",
+        "payloadType": "str",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "5eabace5eadbf5ee"
+            ]
+        ]
+    },
+    {
+        "id": "7009d800d82c86cb",
+        "type": "inject",
+        "z": "1d314bb41b6ee52c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Topic1",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 140,
+        "y": 120,
+        "wires": [
+            [
+                "b41286eef4d4f966",
+                "2f70334aabe41645"
+            ]
+        ]
+    },
+    {
+        "id": "e8a644cd6756cc10",
+        "type": "inject",
+        "z": "1d314bb41b6ee52c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Topic:2",
+        "payload": "5",
+        "payloadType": "num",
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "b41286eef4d4f966",
+                "2f70334aabe41645"
+            ]
+        ]
+    },
+    {
+        "id": "f6ae13541b7ecedd",
+        "type": "inject",
+        "z": "1d314bb41b6ee52c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "10",
+        "payloadType": "num",
+        "x": 130,
+        "y": 240,
+        "wires": [
+            [
+                "b41286eef4d4f966",
+                "2f70334aabe41645"
+            ]
+        ]
+    },
+    {
+        "id": "5eabace5eadbf5ee",
+        "type": "ui_text",
+        "z": "1d314bb41b6ee52c",
+        "group": "da4df439fbd88815",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Texto de prueba",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 340,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "b41286eef4d4f966",
+        "type": "ui_gauge",
+        "z": "1d314bb41b6ee52c",
+        "name": "",
+        "group": "86e2f1e88bea3204",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "gauge",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 10,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 330,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "2f70334aabe41645",
+        "type": "ui_chart",
+        "z": "1d314bb41b6ee52c",
+        "name": "",
+        "group": "86e2f1e88bea3204",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 330,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "db66e76efb78dffd",
+        "type": "ui_spacer",
+        "z": "1d314bb41b6ee52c",
+        "name": "spacer",
+        "group": "5d0c1df56097ecde",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b41487138c25d51d",
+        "type": "ui_spacer",
+        "z": "1d314bb41b6ee52c",
+        "name": "spacer",
+        "group": "5d0c1df56097ecde",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "da4df439fbd88815",
+        "type": "ui_group",
+        "name": "Texto - Group 1",
+        "tab": "c7157a9a14225472",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "86e2f1e88bea3204",
+        "type": "ui_group",
+        "name": "Graficos - Group 2",
+        "tab": "c7157a9a14225472",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c7157a9a14225472",
+        "type": "ui_tab",
+        "name": "Flow3",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    }
+]
