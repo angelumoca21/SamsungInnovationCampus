@@ -1,4 +1,3 @@
-const { Console } = require('console');
 var os = require('os');
 console.log('System hostname:%s',os.hostname());
 console.log('Memory of system:%d /%d',os.freemem(),os.totalmem());
