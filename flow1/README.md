@@ -8,6 +8,6 @@ Este flow tiene el objetivo de conocer la interfaz de Node-red, se utiliza 1 nod
 - Node-red instalado.
 
 ## Resultados
-![Flow 1](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow1/imagenes/flow1.png){width='100px'}
+![Flow 1](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow1/imagenes/flow1.png)
 
 
