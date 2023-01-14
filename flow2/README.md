@@ -9,6 +9,6 @@ Se utiliza un nodo inject, un nodo debug, un function y un dashboard, el nodo in
 - Node-red instalado.
 
 ## Resultados
-![Flow 2](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow1/imagenes/flow1.png)
+![Flow 2](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow2/imagenes/flow2.png)
 
-![Flow 2 Dashboard](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow1/imagenes/flow1.png)
+![Flow 2 Dashboard](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow2/imagenes/flow2Dashboard.png)
