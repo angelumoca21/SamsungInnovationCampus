@@ -1,0 +1,189 @@
+[
+    {
+        "id": "5767ccc4af4a5196",
+        "type": "tab",
+        "label": "RFID",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "af582911873a7533",
+        "type": "exec",
+        "z": "5767ccc4af4a5196",
+        "command": "python3 /home/pi/Documents/Github/SamsungInnovationCampus/python-rfid-mysql/rfid-mysql-args.py",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 570,
+        "y": 80,
+        "wires": [
+            [
+                "186423ac7bb56380"
+            ],
+            [
+                "186423ac7bb56380"
+            ],
+            [
+                "186423ac7bb56380"
+            ]
+        ]
+    },
+    {
+        "id": "d66a274862f0a738",
+        "type": "inject",
+        "z": "5767ccc4af4a5196",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 80,
+        "wires": [
+            [
+                "af582911873a7533"
+            ]
+        ]
+    },
+    {
+        "id": "186423ac7bb56380",
+        "type": "debug",
+        "z": "5767ccc4af4a5196",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "a352bc11907869f5",
+        "type": "ui_button",
+        "z": "5767ccc4af4a5196",
+        "name": "",
+        "group": "7629ccefe61348de",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "LECTURA DEL TAG",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 120,
+        "y": 200,
+        "wires": [
+            [
+                "b2552754ba1b3d2b"
+            ]
+        ]
+    },
+    {
+        "id": "b2552754ba1b3d2b",
+        "type": "function",
+        "z": "5767ccc4af4a5196",
+        "name": "function 1",
+        "func": "msg.payload = ' \"' + global.get (\"text\") + '\"';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 200,
+        "wires": [
+            [
+                "af582911873a7533"
+            ]
+        ]
+    },
+    {
+        "id": "8632af8ab81dc573",
+        "type": "ui_text_input",
+        "z": "5767ccc4af4a5196",
+        "name": "",
+        "label": "Estatus",
+        "tooltip": "",
+        "group": "7629ccefe61348de",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 80,
+        "y": 280,
+        "wires": [
+            [
+                "116f0e9d0afce2e5"
+            ]
+        ]
+    },
+    {
+        "id": "116f0e9d0afce2e5",
+        "type": "function",
+        "z": "5767ccc4af4a5196",
+        "name": "function 2",
+        "func": "global.set (\"text\", msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 220,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7629ccefe61348de",
+        "type": "ui_group",
+        "name": "Entrada de datos",
+        "tab": "a3589e928051cd24",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a3589e928051cd24",
+        "type": "ui_tab",
+        "name": "Tab 1",
+        "icon": "dashboard",
+        "order": 1
+    }
+]
