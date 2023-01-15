@@ -1,7 +1,6 @@
 # Python
 
-Este repositorio contine los ejercicios para conocer sobre el lenguaje de programación Python.  
-
+Este repositorio contine los ejercicios para conocer sobre el lenguaje de programación Python.
 
 ## Material
 
@@ -14,7 +13,7 @@ Este repositorio contine los ejercicios para conocer sobre el lenguaje de progra
 
 ## Resultados
 
-- [Introducción a Python]() 
+- [Introducción a Python](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/Python/introduccion-python) 
 
 - [Básicos con Python]() 
 
