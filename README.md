@@ -16,3 +16,5 @@ Repositorio que compila todos los proyectos realizados en el diplomado de Samsun
 - [ESP32CAM y CameraWebServer](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/CameraWebServer) 
 
 - [Flow6](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/flow6) 
+
+- [Flow7](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/flow7) 
