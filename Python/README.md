@@ -10,6 +10,7 @@ Este repositorio contine los ejercicios para conocer sobre el lenguaje de progra
 - Jupyter.
 - Raspberry Pi.
 - Cables y brotoboard.
+- Sensor ultrasónico.
 
 ## Resultados
 
@@ -17,6 +18,7 @@ Este repositorio contine los ejercicios para conocer sobre el lenguaje de progra
 
 - [Básicos con Python](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/Python/basicos-python) 
 
+- [Sensor ultrasónico con Python y Raspberry Pi](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/Python/archivos_python) 
 
 
 
