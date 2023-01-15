@@ -12,8 +12,8 @@ Los datos que manda cada particpante del diplomado son extraidos por el tema MQT
 - Protoboard y cables.
 
 ## Resultados
-![Flow 7]()
+![Flow 7](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow7/imagenes/flow7.png)
 
-![Flow 7 Dashboard]()
+![Flow 7 Dashboard](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow7/imagenes/flow7dash.png)
 
-![Flow 7 Grafana]()
+![Flow 7 Grafana](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow7/imagenes/flow7Grafana.png)
