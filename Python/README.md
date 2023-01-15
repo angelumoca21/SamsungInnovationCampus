@@ -11,6 +11,7 @@ Este repositorio contine los ejercicios para conocer sobre el lenguaje de progra
 - Raspberry Pi.
 - Cables y brotoboard.
 - Sensor ultrasónico.
+- Tarjeta y sensor RFID.
 
 ## Resultados
 
@@ -20,7 +21,4 @@ Este repositorio contine los ejercicios para conocer sobre el lenguaje de progra
 
 - [Sensor ultrasónico con Python y Raspberry Pi](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/Python/archivos_python) 
 
-
-
-![Flow 7]()
-
+- [RFID con Python, Raspberry Pi y MySQL](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/Python/python-rfid-mysql) 
