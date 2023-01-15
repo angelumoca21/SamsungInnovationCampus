@@ -13,4 +13,4 @@ El ESP32CAM manda un mensaje de igual forma por MQTT al tema donde node-red est√
 ## Resultados
 ![Flow 6](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow6/imagenes/flow6.png)
 
-![Flow 6 Dashboard]()
+![Flow 6 Dashboard](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow6/imagenes/flow6dash.png)
