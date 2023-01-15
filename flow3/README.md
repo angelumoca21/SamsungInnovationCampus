@@ -10,6 +10,6 @@ El primer nodo inject solo envía un texto de prueba el cual en el dashboar se m
 - Node-red instalado.
 
 ## Resultados
-![Flow 3]()
+![Flow 3](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow3/imagenes/flow3_dashboard.png)
 
-![Flow 3 Dashboard]()
+![Flow 3 Dashboard](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow3/imagenes/flow3.png)
