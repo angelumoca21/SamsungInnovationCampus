@@ -10,6 +10,6 @@ En esta sección del diplomado se introdujo el microcontrolador: ESP32CAM, la ID
 - Protoboard y cables.
 
 ## Resultados
-![ESP32CAM](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/CameraWebServer/imagenes/conexionESP32CAM.png)
+![ESP32CAM]()
 
 ![CameraWebServer]()
