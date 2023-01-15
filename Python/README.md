@@ -15,10 +15,10 @@ Este repositorio contine los ejercicios para conocer sobre el lenguaje de progra
 
 - [Introducción a Python](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/Python/introduccion-python) 
 
-- [Básicos con Python]() 
+- [Básicos con Python](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/Python/basicos-python) 
 
-![Flow 7](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow7/imagenes/flow7.png)
 
-![Flow 7 Dashboard](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow7/imagenes/flow7dash.png)
 
-![Flow 7 Grafana](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow7/imagenes/flow7Grafana.png)
+
+![Flow 7]()
+
