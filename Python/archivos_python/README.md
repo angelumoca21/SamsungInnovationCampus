@@ -2,4 +2,4 @@
 
 Se implementó un programa de Python para controlar el sensor ultrasónico, con la Raspberry Pi, con el objetivo de realizar la medicíon de distancia entre el sensor y un objeto.
 
-![Flow 7]()
+[Funcionamiento](https://youtu.be/mDPNvFgUgKU)
