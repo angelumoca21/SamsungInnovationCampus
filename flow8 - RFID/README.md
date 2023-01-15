@@ -1,6 +1,6 @@
 # Flow 8 - RFID
 
-
+El flow 8 recupera los scripts realizados con Python y el módulo sensor RFID, con el objetivo de registrar en la base de datos un evento firmado con los datos del respectivo tag RFID que se acerque al sensor, en el dashboard se ingresa el estatus a guardar, procedemos a acercar el tag al lector RFID y se oprime el botón, lo que hace ejecutar el script especificado.
 
 
 ## Material
