@@ -7,8 +7,10 @@ Los datos que manda cada participante del diplomado son extraidos el tema MQTT y
 ## Material
 
 - PC con maquina virtual con ubuntu.
+- Grafana.
 - IDE de Arduino configurada para programar el ESP32CAM.
 - ESP32CAM, módulo FTDI y cable USB.
+- Sensor DHT11. 
 - Protoboard y cables.
 
 ## Resultados
