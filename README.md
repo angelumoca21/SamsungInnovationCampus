@@ -24,3 +24,7 @@ Repositorio que compila todos los proyectos realizados en el diplomado de Samsun
 - [Flow8 - RFID](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/flow8%20-%20RFID) 
 
 - [JavaScript](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/JavaScript) 
+
+- [OpenHAB]() 
+
+- [Apertura de puertas con reconocimiento facial]() 
