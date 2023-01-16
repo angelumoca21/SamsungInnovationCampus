@@ -28,3 +28,5 @@ Repositorio que compila todos los proyectos realizados en el diplomado de Samsun
 - [OpenHAB](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/OpenHAB) 
 
 - [Apertura de puertas con reconocimiento facial](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/AperturaPuertasConReconocimeintoFacial) 
+
+- [Proyecto capstone: Sistema de captación de agua pluvial en casa habitación](https://github.com/angelumoca21/SistemaDeCaptacionDeAguaPluvialEnCasaHabitacion) 
