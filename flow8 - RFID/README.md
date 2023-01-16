@@ -10,6 +10,7 @@ El flow 8 recupera los scripts realizados con Python y el módulo sensor RFID, c
 - ESP32CAM, módulo FTDI y cable USB.
 - Sensor y tarjeta RFID. 
 - Protoboard y cables.
+- Raspberry Pi.
 
 ## Resultados
 ![Flow 8](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow8%20-%20RFID/imagenes/flow8.png)
