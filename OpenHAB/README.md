@@ -8,8 +8,8 @@
 - Broker MQTT.
 
 ## Resultados
-![GUI]()
+![GUI](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/OpenHAB/imagenes/GUI.png)
 
-![Rules]()
+![Rules](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/OpenHAB/imagenes/rules.png)
 
-![Things]()
+![Things](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/OpenHAB/imagenes/things.png)

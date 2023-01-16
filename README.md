@@ -25,6 +25,6 @@ Repositorio que compila todos los proyectos realizados en el diplomado de Samsun
 
 - [JavaScript](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/JavaScript) 
 
-- [OpenHAB]() 
+- [OpenHAB](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/OpenHAB) 
 
-- [Apertura de puertas con reconocimiento facial]() 
+- [Apertura de puertas con reconocimiento facial](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/AperturaPuertasConReconocimeintoFacial) 
