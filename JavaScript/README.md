@@ -14,3 +14,9 @@ Este repositorio contine los ejercicios realizados para conocer sobre el lenguaj
 - [Funciones con JS](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/JavaScript/funcionesJS) 
 
 - [Módulos y npm](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/JavaScript/modulos-js) 
+
+- [Eventos con JS](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/JavaScript/eventosJS) 
+
+- [Callbacks con JS](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/JavaScript/callbacks) 
+
+- [Archivos con JS](https://github.com/angelumoca21/SamsungInnovationCampus/tree/main/JavaScript/archivos) 
