@@ -1,6 +1,6 @@
 # Python
 
-Este repositorio contine los ejercicios para conocer sobre el lenguaje de programación Python.
+Este repositorio contine los ejercicios realizados para conocer sobre el lenguaje de programación Python.
 
 ## Material
 
