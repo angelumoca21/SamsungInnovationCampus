@@ -16,3 +16,5 @@ El flow 8 recupera los scripts realizados con Python y el módulo sensor RFID, c
 ![Flow 8](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow8%20-%20RFID/imagenes/flow8.png)
 
 ![Flow 8 Dashboard](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow8%20-%20RFID/imagenes/flow8Dash.png)
+
+![Flow 8 Circuito](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow8%20-%20RFID/imagenes/circuito.jpg)
