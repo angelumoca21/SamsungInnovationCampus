@@ -19,3 +19,5 @@ Los datos que manda cada participante del diplomado son extraidos el tema MQTT y
 ![Flow 7 Dashboard](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow7/imagenes/flow7dash.png)
 
 ![Flow 7 Grafana](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow7/imagenes/flow7Grafana.png)
+
+![Flow 7 Circuito](https://github.com/angelumoca21/SamsungInnovationCampus/blob/main/flow7/imagenes/circuito.jpg)
